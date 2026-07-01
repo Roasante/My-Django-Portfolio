@@ -1,0 +1,47 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}
+DSL Work Highlights
+{% endblock %}
+
+{% block content %}
+
+<h2 class="mb-4">
+    Dzill Solutions Limited Work highlights
+</h2>
+
+<p class="text-muted">
+    Seleceted activities from work at Dzill Solutions Limited.
+</p>
+
+<div class="row g-4">
+
+
+    <div class="col-md-3">
+        <img src="{% static 'images/changedpassword.jpg' %}"
+             class="img-fluid rounded shadow">
+    </div>
+
+     <div class="col-md-2">
+        <img src="{% static 'images/camera.jpg' %}"
+             class="img-fluid rounded shadow">
+    </div>
+
+
+    <div class="col-md-2">
+        <img src="{% static 'images/Novitiate.jpg' %}"
+             class="img-fluid rounded shadow">
+    
+    </div>
+
+
+    <div class="col-md-3">
+        <img src="{% static 'images/GSA_work_Goaso.jpg' %}"
+             class="img-fluid rounded shadow">
+        
+    </div>
+
+</div>
+
+{% endblock %}

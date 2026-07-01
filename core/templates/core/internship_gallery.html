@@ -1,0 +1,83 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}
+All Internship Experience
+{% endblock %}
+
+{% block content %}
+
+<h4 class="mb-4">
+    Work Highlights From All Internship Experience
+</h4>
+
+<p class="text-muted">
+    Selected activities and field experiences during all my internship periods.
+</p>
+
+<div class="row g-4">
+
+    <div class="col-md-3">
+        <img src="{% static 'images/relayprotection.jpg' %}"
+             class="img-fluid rounded shadow">
+        <p class="mt-2">
+           An image of Communication Module for Relays.
+        </p>
+    </div>
+
+    <div class="col-md-2">
+        <img src="{% static 'images/fox615.jpg' %}"
+             class="img-fluid rounded shadow">
+        <p class="mt-2">
+            An image of the FOX 615
+        </p>
+    </div>
+
+    <div class="col-md-2">
+        <img src="{% static 'images/GridcoIntern.jpg' %}"
+             class="img-fluid rounded shadow">
+        <p class="mt-2">
+            Lecture session at the Old control Room on Contactors.
+        </p>
+    </div>
+
+    
+    <div class="col-md-2">
+        <img src="{% static 'images/Internship_GridCo.jpg' %}"
+             class="img-fluid rounded shadow">
+        <p class="mt-2">
+           Lecture on the 48VDC Rectifier
+        </p>
+    </div>
+
+
+    <div class="col-md-2">
+        <img src="{% static 'images/Testroom_Vodafone.jpg' %}"
+             class="img-fluid rounded shadow" >
+        <p class="mt-2">
+            Aftermath of Inspection at the Testroom
+        </p>
+    
+    </div>
+
+    <div class="col-md-2">
+        <img src="{% static 'images/TransmissionRoom_Vodafone.jpg' %}"
+             class="img-fluid rounded shadow" >
+        <p class="mt-2">
+           Physical Inspection of equipment at the Transmission Room
+        </p>
+    
+    </div>
+
+    <div class="col-md-2">
+        <img src="{% static 'images/Vodafone_Inspection.jpg' %}"
+             class="img-fluid rounded shadow" >
+        <p class="mt-2">
+           Inspection of Switches
+        </p>
+    
+    </div>
+
+</div>
+
+{% endblock %}

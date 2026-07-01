@@ -1,0 +1,269 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+Experience
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+    <h1 class="mb-4">Experience</h1>
+
+    <!-- TABS -->
+    <ul class="nav nav-pills justify-content-center mb-5" id="expTabs" role="tablist">
+
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active"
+                    data-bs-toggle="tab"
+                    data-bs-target="#professional"
+                    type="button">
+                Professional Experience
+            </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+            <button class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#media"
+                    type="button">
+                Media Experience
+            </button>
+        </li>
+
+    </ul>
+
+    <div class="tab-content">
+
+        <!-- PROFESSIONAL -->
+        <div class="tab-pane fade show active" id="professional">
+
+            <h6>
+                <p class="lead">
+                Telecommunications Engineer with practical experience in network operations,
+                fiber optic systems, wireless networking, telecom infrastructure maintenance,
+                ICT support, and communication systems. Experienced in working with SCADA
+                communications, OTDR testing, structured cabling, broadband deployments,
+                and network troubleshooting.
+                </p>
+            </h6>
+
+            <!-- DZILL -->
+            <div class="card experience-card mb-4">
+                <div class="card-body">
+
+                    <h3>
+                        <i class="fa-solid fa-network-wired text-primary me-2"></i>
+                        Graduate Trainee – IT / Network Technician
+                    </h3>
+                    <h5 class="text-muted">Dzill Solutions Limited (DSL)</h5>
+                    <p><strong>January 2026 – Present</strong></p>
+
+                    <ul>
+                        <li>Monitor and troubleshoot network services for residential, business, school, and hostel clients to maintain service availability and performance.</li>
+
+                        <li>Install, configure, and commission networking equipment including MikroTik routers, wireless radio systems, and Starlink broadband terminals.</li>
+
+                        <li>Deploy wired and wireless LAN infrastructure for schools, institutions, businesses, and residential facilities.</li>
+
+                        <li>Implement Point-to-Point (P2P) wireless links to extend internet connectivity to underserved communities.</li>
+
+                        <li>Perform structured cabling, PABX telephone installations, RJ-12 socket termination, and desk phone commissioning.</li>
+
+                        <li>Provide ICT support, hardware diagnostics, software troubleshooting, and technical documentation.</li>
+
+                        <li>Assist with the installation and commissioning of solar inverter and battery backup systems for homes and offices.</li>
+                    </ul>
+                    <div class="text-center mt-3">
+                        <a href = "{% url 'dzill_gallery' %}" class="btn btn-outline-primary mt-3">
+                        View Work Highlights
+                        </a>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <!-- GRIDCO -->
+            <div class="card experience-card mb-4">
+                <div class="card-body">
+
+                    <h3><i class="fa-solid fa-shield-halved text-danger me-2"></i>Network Operations Engineer (National Service)</h3>
+                    <h5 class="text-muted">Ghana Grid Company Limited (GRIDCo)</h5>
+
+                    <p><strong>Northern Telecom Network Operations, Kumasi</strong></p>
+                    <p><strong>November 2024 – September 2025</strong></p>
+
+                    <ul>
+                        <li>Restored an ABB FOX 515 Fiber Optic Multiplexer damaged during a substation fire incident through cleaning, servicing, and replacement of faulty modules under minimal supervision.</li>
+
+                        <li>Collaborated in resolving a critical communication outage at the Asawinso 161kV Substation through troubleshooting and replacement of defective ABB ETL equipment modules.</li>
+
+                        <li>Conducted quarterly fiber optic audits using OTDR equipment to assess cable integrity, identify losses, detect faults, and document network performance.</li>
+
+                        <li>Supported RJ45 termination, fusion splicing, and fiber optic maintenance activities during network restoration and expansion projects.</li>
+
+                        <li>Performed routine inspection and maintenance of telecom infrastructure including 48VDC battery banks, rectifiers, multiplexers, communication cabinets, and telecom rooms.</li>
+
+                        <li>Participated in inspection of OPGW junction boxes, transmission communication facilities, and telecom assets supporting the National Interconnected Transmission System (NITS).</li>
+
+                        <li>Assisted in monitoring, troubleshooting, and maintaining fiber optic, SCADA, PLC, and communication systems to ensure reliable transmission network operations.</li>
+                    </ul>
+
+                    <div class="text-center mt-3"><a href = "{% url 'gridco_gallery' %}" class="btn btn-outline-primary mt-3">
+                        View Work Highlights
+                     </a>
+                    </div>
+
+                </div>
+            </div>
+
+            
+            
+
+            <!-- INTERNSHIP GRIDCO -->
+            <div class="card experience-card mb-4">
+                <div class="card-body">
+
+                    <h4><i class="fa-solid fa-wave-square text-primary me-2"></i>Engineering Intern – </h4>
+                    <h5><strong>Ghana Grid Company Limited - Kumasi</strong></h5>
+                    <p><strong>September 2023 – November 2023</strong></p>
+
+                    <ul>
+                        <li>Supported Senior Engineers in fiber optic link testing, OTDR loss measurements, fusion splicing, structured cabling, and Ethernet cable termination.</li>
+
+                        <li>Assisted with preventive maintenance of telecom equipment and SDH multiplexer systems to support network reliability.</li>
+
+                        <li>Participated in operation monitoring of the National Interconnected Transmission System (NITS) through hourly recording and reporting of transmission parameters.</li>
+
+                        <li>Assisted in transmission line patrol exercises to identify potential risks, report defects, and support public safety awareness initiatives.</li>
+
+                        <li>Supported maintenance activities on power transformer On-Load Tap Changers (OLTCs) and related substation equipment.</li>
+
+                        <li>Maintained compliance with safety procedures while working in high-voltage and telecommunications environments.</li>
+                    </ul>
+                    <div class="text-center mt-3"><a href = "{% url 'internship_gallery' %}" class="btn btn-outline-primary mt-3">
+                        View Work Highlights
+                     </a></div>
+
+                </div>
+            </div>
+
+            <!-- VODAFONE -->
+            <div class="card experience-card mb-4">
+                <div class="card-body">
+
+                    <h3><i class="fa-solid fa-satellite-dish text-success me-2"></i>Engineering Intern</h3>
+                    <h5>Vodafone Ghana,Sunyani Exchange</h5>
+                    <p><strong>September 2022 – November 2022</strong></p>
+
+                    <ul>
+                        <li>Assisted in Fiber-to-the-Premises (FTTP) deployment and Point-to-Point (P2P) wireless installations to support customer connectivity.</li>
+
+                        <li>Performed routine inspection of switches, routers, hubs, and network equipment by interpreting operational status indicators and reporting abnormalities.</li>
+
+                        <li>Conducted voltage testing of lithium battery systems and documented defective cells for maintenance planning.</li>
+
+                        <li>Supported maintenance of 48VDC battery banks and rectifier systems used to power telecommunications infrastructure.</li>
+                    </ul>
+                    <div class="text-center mt-3"><a href = "{% url 'internship_gallery' %}" class="btn btn-outline-primary mt-3">
+                        View Work Highlights
+                     </a></div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- MEDIA -->
+        <div class="tab-pane fade" id="media">
+
+            <p class="lead">
+                Experience in content creation, live production, broadcasting, and digital media operations.
+            </p>
+
+            <!-- SUNYANI FM -->
+            <div class="card experience-card mb-4">
+                <div class="card-body">
+
+                    <h3><i class="fa-solid fa-broadcast-tower text-info me-2"></i>Online Broadcasting Technician (Contract)</h3>
+                    <h5 class="text-muted">Sunyani 88.1 FM</h5>
+                    <p><strong>October 2025 – January 2026</strong></p>
+
+                    <ul>
+                        <li>Operated live streaming systems using OBS and vMix for online broadcasts.</li>
+
+                        <li>Managed audio mixing, video switching, and live production during events.</li>
+
+                        <li>Ensured stable internet connectivity and optimized streaming quality.</li>
+
+                        <li>Directed host presenters and panel members during live discussions ensuring smooth broadcast flow.</li>
+                    </ul>
+                     <div class="text-center mt-3">
+                        <a href = "{% url 'media_gallery' %}" class="btn btn-outline-primary mt-3">
+                        View Work Highlights
+                     </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- GRAPHIC DESIGN -->
+            <div class="card experience-card mb-4">
+                <div class="card-body">
+
+                    <h4><i class="fa-solid fa-pen-nib text-dark me-2"></i>Graphic Designer & Content Creator</h4>
+                    <h5 class="text-muted">Freelance / YouTube Channel</h5>
+
+                    <ul>
+                        <li>Design flyers, banners, and promotional materials for events and church programs.</li>
+                        <li>Create visual content for YouTube channel: Learn With Quabena Asante.</li>
+                        <li>Edit images and videos using design and editing tools.</li>
+                        <li>Produced hymn-based multimedia presentations and storytelling content.</li>
+                    </ul>
+                    <div class="text-center mt-3">
+                        <a href = "{% url 'media_gallery' %}" class="btn btn-outline-primary mt-3">
+                        View Work Highlights
+                     </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- MEDIA ASSISTANT -->
+            <div class="card experience-card mb-4">
+                <div class="card-body">
+
+                    <h3><i class="fa-solid fa-video text-danger me-2"></i>Media Assistant</h3>
+                    <h5 class="text-muted">KNUST Church of Christ Media Team</h5>
+
+                    <p><strong>2021 – 2024</strong></p>
+
+                    <ul>
+                        <li>Coordinated and operated media projection systems for live services using EasyWorship 7.</li>
+
+                        <li>Assisted in setting up and running live streams using OBS and vMix software.</li>
+
+                        <li>Supported real-time service production including lyrics, slides, visuals, and transitions.</li>
+
+                        <li>Troubleshot technical issues during live streaming sessions to maintain continuity.</li>
+
+                        <li>Managed YouTube channel uploads, thumbnails, and content organization.</li>
+                    </ul>
+
+                     <div class="text-center mt-3">
+                        <a href = "{% url 'media_gallery' %}" class="btn btn-outline-primary mt-3">
+                        View Work Highlights
+                     </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

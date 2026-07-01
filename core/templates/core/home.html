@@ -1,0 +1,113 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<div class="page-wrapper">
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+    <div class="container hero-section d-flex align-items-center">
+
+        <!-- LEFT: IMAGE -->
+        <div class="hero-image">
+
+            <img src="{% static 'images/logo.png' %}"
+                 class="profile-img"
+                 alt="Profile Image">
+
+        </div>
+
+        <!-- RIGHT: TEXT -->
+        <div class="hero-text">
+
+            <h1 class="display-4 fw-bold">
+                Richmond Obeng Asante
+            </h1>
+
+            <h3 class="text-muted mb-3">
+                Graduate Telecommunication Engineer | Network Infrastructure | Fiber Optics | 
+            </h3>
+
+            <p class="lead">
+                <strong>
+                    I am Telecommunication Engineering graduate from the Kwame Nkrumah University of Science and Technology with about two years of hands-on experience in fiber optic transmission systems, IP networking, and telecom operations on Ghana's national power grid infrastructure. Beyond networking, I'm actively developing skills in web development and Linux, with a growing interest in cybersecurity and network automation.
+                </strong>
+            </p>
+
+            <!-- CTA BUTTONS -->
+            <!-- CTA BUTTONS -->
+            <div class="cta-group">
+
+                <a href="{% url 'about' %}" class="cta-btn primary">
+                    About Me
+                </a>
+
+                <a href="{% url 'contact' %}" class="cta-btn outline">
+                    Contact Me
+                </a>
+
+                <a href="{% url 'experience' %}" class="cta-btn outline">
+                    View Experience
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- =========================
+         SKILLS SECTION
+    ========================== -->
+    <div class="container section-block">
+
+        <h2 class="text-center mb-4">Core Skills</h2>
+
+        <div class="row g-3 justify-content-center">
+
+            <div class="col-md-3">
+                <div class="card skill-card text-center">
+                    <div class="card-body">
+                        Fiber Optics
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card skill-card text-center">
+                    <div class="card-body">
+                        Networking
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card skill-card text-center">
+                    <div class="card-body">
+                        General I.T Solutions
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card skill-card text-center">
+                    <div class="card-body">
+                        Django Development
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

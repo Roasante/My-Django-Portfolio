@@ -1,0 +1,105 @@
+{% extends 'core/base.html' %}
+
+{% block title %}
+Contact
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+    <h1 class="text-center mb-5">
+        Get In Touch
+    </h1>
+
+    <div class="row g-4">
+
+        <!-- EMAIL -->
+        <div class="col-md-4">
+            <div class="card contact-card text-center h-100">
+
+                <div class="card-body">
+
+                    <i class="fa-solid fa-envelope contact-icon text-danger"></i>
+
+                    <h4 class="mt-3">Email</h4>
+
+                    <p class="text-muted">
+                        Send me an email anytime
+                    </p>
+
+                    <a class="contact-link"
+                       href="mailto:obengkrich@gmail.com">
+                        obengkrich@gmail.com
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- PHONE / WHATSAPP -->
+        <div class="col-md-4">
+            <div class="card contact-card text-center h-100">
+
+                <div class="card-body">
+
+                    <div class="d-flex justify-content-center align-items-center gap-3">
+
+                        <i class="fa-solid fa-phone contact-icon text-success"></i>
+
+                        <i class="fa-brands fa-whatsapp contact-icon text-success"></i>
+
+                    </div>
+
+                    <h4 class="mt-3">Call / WhatsApp</h4>
+
+                    <p class="text-muted">
+                        Available for calls and messages
+                    </p>
+
+                    <a class="contact-link"
+                       href="https://wa.me/233596186047"
+                       target="_blank">
+                        +233 596 186 047
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- LINKEDIN -->
+        <div class="col-md-4">
+            <div class="card contact-card text-center h-100">
+
+                <div class="card-body">
+
+                    <i class="fa-brands fa-linkedin contact-icon text-primary"></i>
+
+                    <h4 class="mt-3">LinkedIn</h4>
+
+                    <p class="text-muted">
+                        Connect with me professionally
+                    </p>
+
+                    <h6 class="mb-3">
+                        Richmond Obeng Asante
+                    </h6>
+
+                    <a class="contact-link"
+                       href="https://www.linkedin.com/in/roasante5"
+                       target="_blank">
+                        View Profile
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
